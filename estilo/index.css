@@ -1,12 +1,38 @@
+body {
+	background-image: url(https://ae01.alicdn.com/kf/HTB13vroLVXXXXc_XpXXq6xXFXXXA/Env-o-de-madera-vintage-tel-n-de-fondo-estudio-background2-telones-de-fondo-fotografia-vintage.jpg);
+}
 h1 {
 	color:red;
+
 }
 #foto {
 	border-radius: 50%;
 	width: 200px;
 	height: 200px;
+	display:inline-block;
+	margin-left: 35%;
+    margin-top: -19%;
+
+}
+li {
+	    font-size: 20px;
+    margin-bottom: 20px;
 }
 .iconos {
 	width: 50px;
-	height: 50px;
+    height: 50px;
+    margin-left: 22%;
+    padding: 3px;
+    background: white;
+    border-radius: 25%;
+  }
+#tarjeta {
+	width: 50%;
+    height: 325px;
+    border-color: black;
+    background-image: url(https://lostandtaken.com/wp-content/uploads/edd/2016/02/subtle-light-grunge-texture-3.jpg);
+    margin-bottom: 5%;
+    padding-top: 3%;
+    margin-left: 25%;
+    margin-top: 11%;
 }
