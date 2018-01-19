@@ -1,8 +1,19 @@
-body {
-	background-image: url(https://ae01.alicdn.com/kf/HTB13vroLVXXXXc_XpXXq6xXFXXXA/Env-o-de-madera-vintage-tel-n-de-fondo-estudio-background2-telones-de-fondo-fotografia-vintage.jpg);
-}
-h1 {
-	color:red;
+
+
+body::after {
+    content: "";
+    background: url('https://ae01.alicdn.com/kf/HTB13vroLVXXXXc_XpXXq6xXFXXXA/Env-o-de-madera-vintage-tel-n-de-fondo-estudio-background2-telones-de-fondo-fotografia-vintage.jpg') no-repeat center center;
+    background-size:cover;
+    /*opacity: 0.5; */ 
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;  
+  /*  -webkit-filter: grayscale(1); /* Old WebKit  */
+    filter: grayscale(50%); 
+
 
 }
 #foto {
@@ -12,6 +23,7 @@ h1 {
 	display:inline-block;
 	margin-left: 35%;
     margin-top: -19%;
+    filter:none;
 
 }
 li {
@@ -35,4 +47,5 @@ li {
     padding-top: 3%;
     margin-left: 25%;
     margin-top: 11%;
+    border-radius: 3%;
 }
